@@ -1,0 +1,9 @@
+
+FROM python:3.6
+RUN mkdir /usr/src/app/
+COPY . /usr/src/app/
+WORKDIR /usr/src/app/
+EXPOSE 5001
+RUN apt-get update
+RUN pip --no-cache-dir install -r requirements.txt
+CMD ["python3", "api.py"] 
