@@ -1,6 +1,8 @@
 # Projet-Flask
 
 #Vue
+  probleme avec le dépot du dossier de vue 
+  récupérer l'archive du projet global ProjetFlask.zip
   npm i dans le dossier pour télécharger les dépendances
   npm run serve pour lancer
   http://localhost:8080/
